@@ -21,19 +21,21 @@ html{
     font-size: 30px;
     line-height: 32px;
     text-transform: uppercase;
+    padding-top: 36px;
+    
 }
 .logo::first-letter{
     font-family: Roboto, Arial, Helvetica, sans-serif;
     color: #1abc9c;
     font-weight: 900;
+    
 }
-.logo p {
+.logo-link{
     margin: 0;
-    padding-top: 36px;
+    text-decoration: none;
 
 }
 .page-nav {
-    width: 475px;
     float: right;
     padding-top: 40px;
 }
@@ -104,9 +106,8 @@ h2::after {
     padding: 0px;
     margin: 0px;
 }
-.product-name{
-    display: inline-block;
-}
+
+
 .cost{
     float: right;
 }
@@ -151,8 +152,8 @@ h2::after {
 }
 
 .product-name {
-    width: 255px;
-    height: 40px;
+    display: block;
+       height: 40px;
     background: linear-gradient(to right, #323232 80%, #8c8c8c 20%);
     padding-top: 5px;
     margin: 0;
@@ -187,4 +188,5 @@ span{
     font-size: 16px;
     line-height: 26px;
     line-height: 52px;
+    margin-bottom: 46px;
 }
